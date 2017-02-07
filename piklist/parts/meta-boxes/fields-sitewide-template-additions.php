@@ -97,4 +97,13 @@
       )
     )
   ));
+  piklist('field', array(
+    'type' => 'text',
+    'field' => 'ecl_id',
+    'label' => 'ECL Article ID',
+    'columns' => 6,
+    'attributes' => array(
+      'disabled' => 'true'
+    )
+  ));
 ?>
